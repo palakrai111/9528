@@ -17,7 +17,7 @@ public class Rotationofarray {
 			System.out.println(a[j]);
 		}*/
 		
-		System.out.println("right rotation of array");
+		/*System.out.println("right rotation of array");
 		int temp1 = a[a.length-1]; // 9 ( last element )
 		for( i = a.length-1;i > 0; i--)
 		{
@@ -27,7 +27,14 @@ public class Rotationofarray {
 		for(int j = 0;j< a.length; j++)
 		{
 			System.out.println(a[j]);
-		}
+		}*/
+		
+	    String s1 = "palak rai";
+	    String s2[] = s1.split(" ");
+	    for(String s3 : s2)
+	    {
+	    	System.out.println(s3.concat("*"));
+	    }
 	}
 
 }
